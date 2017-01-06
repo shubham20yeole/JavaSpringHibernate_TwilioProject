@@ -179,7 +179,7 @@ public class StudentController {
 			@RequestParam(required=false, value="msg") String msg,
 			HttpServletRequest request){
 
-		ModelAndView mav = new ModelAndView("sendsms");
+		ModelAndView mav = new ModelAndView("index");
 		String drmsg = "Hello, My name is Shubham Yeole. This message is to confirm that you visited my project on Heroku Server. I am reachable at +1 (201)-887 5323. Thank you.";
 		Example ex = new Example();
 		try {
