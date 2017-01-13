@@ -14,13 +14,13 @@ import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 ```
 
-initialize access keys and secret ids.
+Initialize ACCOUNT_SID and AUTH_TOKEN.
 >>
 ```nodejs
  public static final String ACCOUNT_SID = "****************************";
  public static final String AUTH_TOKEN = "****************************";
 ```
-Connect Client and create object of twilio account.
+Connect client and create object of twilio account.
 >>
 ```nodejs
 TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
