@@ -2,7 +2,7 @@
 
 ***Project URL: http://shubhamtwilio.herokuapp.com***
 
-Import tilio SDKs.
+Import tilio SDKs
 >>
 ```nodejs
 import com.twilio.sdk.TwilioRestClient;
