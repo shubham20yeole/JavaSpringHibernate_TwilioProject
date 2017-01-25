@@ -14,8 +14,8 @@ import java.util.List;
 public class Example {
 
   // Find your Account Sid and Token at twilio.com/user/account
-  public static final String ACCOUNT_SID = "ACa71408f6a27b278866a41d955d05921e";
-  public static final String AUTH_TOKEN = "454392e296ae9699965432d4bfdc7fe9";
+  public static final String ACCOUNT_SID = "************************************************";
+  public static final String AUTH_TOKEN =  "************************************************";
 
   public void SMS(String phone, String msg) throws TwilioRestException {
 	  TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
